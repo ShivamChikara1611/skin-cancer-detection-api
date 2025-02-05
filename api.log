@@ -1,0 +1,37 @@
+2025-02-06 00:21:20,683 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-06 00:21:20,696 - __main__ - INFO - Model loaded successfully
+2025-02-06 00:22:14,504 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-06 00:22:14,511 - __main__ - INFO - Model loaded successfully
+2025-02-06 00:30:56,892 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-06 00:30:56,903 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-02-06 00:30:56,929 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.57:5000
+2025-02-06 00:30:56,929 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-06 00:31:08,866 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:31:08] "GET / HTTP/1.1" 200 -
+2025-02-06 00:32:58,808 - __main__ - INFO - Prediction: Malignant (99.66%)
+2025-02-06 00:32:58,810 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:32:58] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:34:09,369 - __main__ - INFO - Prediction: Benign (98.00%)
+2025-02-06 00:34:09,370 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:34:09] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:34:58,554 - __main__ - INFO - Prediction: Benign (72.42%)
+2025-02-06 00:34:58,555 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:34:58] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:35:57,186 - __main__ - INFO - Prediction: Malignant (96.58%)
+2025-02-06 00:35:57,187 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:35:57] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:36:29,729 - __main__ - INFO - Prediction: Benign (63.94%)
+2025-02-06 00:36:29,730 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:36:29] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:36:44,849 - __main__ - INFO - Prediction: Malignant (84.36%)
+2025-02-06 00:36:44,850 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:36:44] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:38:09,487 - __main__ - INFO - Prediction: Malignant (67.91%)
+2025-02-06 00:38:09,489 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:38:09] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:40:46,959 - __main__ - INFO - Prediction: Malignant (64.05%)
+2025-02-06 00:40:46,964 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:40:46] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:41:04,680 - __main__ - INFO - Prediction: Malignant (90.25%)
+2025-02-06 00:41:04,681 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:41:04] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:41:24,296 - __main__ - INFO - Prediction: Malignant (99.66%)
+2025-02-06 00:41:24,297 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:41:24] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:41:43,902 - __main__ - INFO - Prediction: Benign (98.00%)
+2025-02-06 00:41:43,903 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:41:43] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:42:21,945 - __main__ - INFO - Prediction: Benign (96.39%)
+2025-02-06 00:42:21,946 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:42:21] "POST /predict HTTP/1.1" 200 -
+2025-02-06 00:47:39,990 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 00:47:39] "GET / HTTP/1.1" 200 -

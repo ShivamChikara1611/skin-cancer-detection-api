@@ -1,0 +1,11 @@
+# From your terminal, run:
+pip freeze > requirements.txt
+
+# Then verify these exist in the file (add manually if missing):
+Flask==3.0.2
+gunicorn==21.2.0
+tensorflow==2.16.1
+pillow==10.3.0
+numpy==1.26.4
+flask-cors==4.0.0
+Werkzeug==3.0.3
