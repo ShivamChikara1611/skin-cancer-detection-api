@@ -57,3 +57,23 @@
 2025-02-06 08:57:28,460 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
 2025-02-06 08:57:36,731 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 08:57:36] "GET / HTTP/1.1" 200 -
 2025-02-06 08:57:37,007 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 08:57:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-06 10:06:38,975 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 10:06:38] "GET / HTTP/1.1" 200 -
+2025-02-06 10:31:32,060 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 10:31:32] "GET / HTTP/1.1" 200 -
+2025-02-06 10:32:01,942 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 10:32:01] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2025-02-06 11:14:17,295 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-06 11:14:17,305 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-02-06 11:14:17,326 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.210.124:5000
+2025-02-06 11:14:17,327 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-06 11:14:24,503 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:14:24] "GET / HTTP/1.1" 200 -
+2025-02-06 11:14:46,499 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:14:46] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-02-06 11:14:49,189 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:14:49] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-02-06 11:15:09,077 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:15:09] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-02-06 11:15:52,088 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:15:52] "GET / HTTP/1.1" 200 -
+2025-02-06 11:15:59,309 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:15:59] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-02-06 11:16:00,605 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:16:00] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-02-06 11:16:17,228 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:16:17] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-02-06 11:16:53,434 - __main__ - INFO - Prediction: Malignant (91.01%)
+2025-02-06 11:16:53,436 - werkzeug - INFO - 127.0.0.1 - - [06/Feb/2025 11:16:53] "POST /predict HTTP/1.1" 200 -
