@@ -1,1 +1,1 @@
-web: gunicorn your_app:app --bind 0.0.0.0:$PORT
+web: gunicorn skin-cancer-detection:app --bind 0.0.0.0:$PORT
