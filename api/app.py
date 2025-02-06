@@ -29,7 +29,7 @@ CORS(app)
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 IMG_WIDTH = 224
 IMG_HEIGHT = 224
-MODEL_PATH = os.path.join(os.path.dirname(__file__), '../model/skin_cancer_model.h5')
+MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), '../model/skin_cancer_model.h5')
 CLASS_LABELS = ['Benign', 'Malignant']  # Ensure this matches your model's class order
 
 # Load the model at startup
