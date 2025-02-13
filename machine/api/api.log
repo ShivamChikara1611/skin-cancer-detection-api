@@ -1,0 +1,40 @@
+2025-02-11 12:47:29,822 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-11 12:47:29,830 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-02-11 12:47:29,863 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://172.20.202.68:7860
+2025-02-11 12:47:29,863 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 12:47:40,287 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 12:47:40] "GET / HTTP/1.1" 200 -
+2025-02-11 12:47:42,789 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 12:47:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-11 12:48:42,159 - __main__ - INFO - Prediction: Benign (56.52%)
+2025-02-11 12:48:42,162 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 12:48:42] "POST /predict HTTP/1.1" 200 -
+2025-02-11 13:06:56,136 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-11 13:06:56,144 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-02-11 13:06:56,192 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://172.20.202.68:7860
+2025-02-11 13:06:56,194 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 13:10:31,177 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 13:10:31] "GET / HTTP/1.1" 200 -
+2025-02-11 13:10:32,551 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 13:10:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-11 13:11:43,951 - __main__ - INFO - Prediction: Benign (56.52%)
+2025-02-11 13:11:43,956 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 13:11:43] "POST /predict HTTP/1.1" 200 -
+2025-02-11 13:15:15,667 - __main__ - INFO - Prediction: Benign (56.52%)
+2025-02-11 13:15:15,671 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 13:15:15] "POST /predict HTTP/1.1" 200 -
+2025-02-11 13:34:31,127 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 13:34:31] "GET / HTTP/1.1" 200 -
+2025-02-11 13:42:48,905 - __main__ - INFO - Prediction: Benign (56.52%)
+2025-02-11 13:42:48,913 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 13:42:48] "POST /predict HTTP/1.1" 200 -
+2025-02-11 13:43:05,720 - __main__ - INFO - Prediction: Benign (93.06%)
+2025-02-11 13:43:05,725 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2025 13:43:05] "POST /predict HTTP/1.1" 200 -
+2025-02-13 11:10:45,134 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 11:10:45,141 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-02-13 11:10:45,167 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://172.20.202.68:7860
+2025-02-13 11:10:45,168 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 11:11:44,202 - __main__ - INFO - Prediction: Benign (93.06%)
+2025-02-13 11:11:44,207 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2025 11:11:44] "POST /predict HTTP/1.1" 200 -
+2025-02-13 11:12:48,471 - __main__ - INFO - Prediction: Benign (78.24%)
+2025-02-13 11:12:48,472 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2025 11:12:48] "POST /predict HTTP/1.1" 200 -
