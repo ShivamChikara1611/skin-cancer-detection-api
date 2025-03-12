@@ -134,3 +134,12 @@
 2025-03-03 22:20:52,839 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:20:52] "POST /predict HTTP/1.1" 200 -
 2025-03-03 23:03:02,470 - __main__ - INFO - Prediction: Malignant (64.26%)
 2025-03-03 23:03:02,475 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 23:03:02] "POST /predict HTTP/1.1" 200 -
+2025-03-13 01:15:04,460 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-13 01:15:04,467 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-03-13 01:15:04,487 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.0.132:7860
+2025-03-13 01:15:04,487 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-13 01:15:51,265 - __main__ - INFO - Prediction: Benign (90.85%)
+2025-03-13 01:15:51,267 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 01:15:51] "POST /predict HTTP/1.1" 200 -
