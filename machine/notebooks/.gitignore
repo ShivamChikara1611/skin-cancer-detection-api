@@ -1,0 +1,23 @@
+# Ignore log files
+*.log
+api.log
+
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore datasets
+data/
+
+# Ignore models if they are large
+model/
+
+# Ignore Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/

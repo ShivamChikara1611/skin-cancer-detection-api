@@ -38,3 +38,99 @@
 2025-02-13 11:11:44,207 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2025 11:11:44] "POST /predict HTTP/1.1" 200 -
 2025-02-13 11:12:48,471 - __main__ - INFO - Prediction: Benign (78.24%)
 2025-02-13 11:12:48,472 - werkzeug - INFO - 127.0.0.1 - - [13/Feb/2025 11:12:48] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:20:37,192 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-03 21:20:37,198 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-03-03 21:20:37,222 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.0.108:7860
+2025-03-03 21:20:37,223 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 21:22:32,980 - __main__ - INFO - Prediction: Benign (90.85%)
+2025-03-03 21:22:32,981 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:22:32] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:23:55,888 - __main__ - INFO - Prediction: Benign (94.93%)
+2025-03-03 21:23:55,889 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:23:55] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:24:15,079 - __main__ - INFO - Prediction: Benign (95.73%)
+2025-03-03 21:24:15,080 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:24:15] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:26:36,124 - __main__ - INFO - Prediction: Malignant (91.34%)
+2025-03-03 21:26:36,125 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:26:36] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:31:25,415 - __main__ - INFO - Prediction: Malignant (100.00%)
+2025-03-03 21:31:25,416 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:31:25] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:31:48,633 - __main__ - INFO - Prediction: Malignant (63.55%)
+2025-03-03 21:31:48,634 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:31:48] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:32:18,532 - __main__ - INFO - Prediction: Malignant (64.26%)
+2025-03-03 21:32:18,533 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:32:18] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:32:44,910 - __main__ - INFO - Prediction: Benign (82.95%)
+2025-03-03 21:32:44,911 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:32:44] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:32:52,409 - __main__ - INFO - Prediction: Benign (77.11%)
+2025-03-03 21:32:52,410 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:32:52] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:32:58,186 - __main__ - INFO - Prediction: Benign (67.75%)
+2025-03-03 21:32:58,186 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:32:58] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:33:04,175 - __main__ - INFO - Prediction: Malignant (99.76%)
+2025-03-03 21:33:04,176 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:33:04] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:33:52,390 - __main__ - INFO - Prediction: Malignant (63.55%)
+2025-03-03 21:33:52,391 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:33:52] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:33:56,982 - __main__ - INFO - Prediction: Malignant (64.26%)
+2025-03-03 21:33:56,982 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:33:56] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:04,352 - __main__ - INFO - Prediction: Malignant (100.00%)
+2025-03-03 21:34:04,352 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:04] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:10,375 - __main__ - INFO - Prediction: Malignant (91.34%)
+2025-03-03 21:34:10,376 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:10] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:15,347 - __main__ - INFO - Prediction: Malignant (99.76%)
+2025-03-03 21:34:15,348 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:15] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:34,431 - __main__ - INFO - Prediction: Benign (98.00%)
+2025-03-03 21:34:34,432 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:34] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:38,790 - __main__ - INFO - Prediction: Benign (90.85%)
+2025-03-03 21:34:38,790 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:38] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:43,198 - __main__ - INFO - Prediction: Benign (74.59%)
+2025-03-03 21:34:43,199 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:43] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:48,766 - __main__ - INFO - Prediction: Benign (72.42%)
+2025-03-03 21:34:48,767 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:48] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:34:53,167 - __main__ - INFO - Prediction: Benign (72.80%)
+2025-03-03 21:34:53,168 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:34:53] "POST /predict HTTP/1.1" 200 -
+2025-03-03 21:58:45,748 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-03 21:58:45,758 - __main__ - INFO - Model loaded successfully. Input shape: (None, 224, 224, 3)
+2025-03-03 21:58:45,783 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7860
+ * Running on http://192.168.0.108:7860
+2025-03-03 21:58:45,783 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 21:59:15,853 - __main__ - INFO - Prediction: Benign (90.85%)
+2025-03-03 21:59:15,855 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 21:59:15] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:02:33,157 - __main__ - INFO - Prediction: Benign (74.59%)
+2025-03-03 22:02:33,158 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:02:33] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:02:41,189 - __main__ - INFO - Prediction: Benign (72.80%)
+2025-03-03 22:02:41,190 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:02:41] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:04:13,090 - __main__ - INFO - Prediction: Benign (90.85%)
+2025-03-03 22:04:13,091 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:04:13] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:05:38,942 - __main__ - INFO - Prediction: Benign (72.80%)
+2025-03-03 22:05:38,943 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:05:38] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:05:50,776 - __main__ - INFO - Prediction: Benign (72.80%)
+2025-03-03 22:05:50,777 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:05:50] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:05:54,881 - __main__ - INFO - Prediction: Benign (72.80%)
+2025-03-03 22:05:54,882 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:05:54] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:07:20,431 - __main__ - INFO - Prediction: Benign (74.59%)
+2025-03-03 22:07:20,433 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:07:20] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:08:04,478 - __main__ - INFO - Prediction: Benign (72.42%)
+2025-03-03 22:08:04,478 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:08:04] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:09:58,126 - __main__ - INFO - Prediction: Benign (74.59%)
+2025-03-03 22:09:58,127 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:09:58] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:10:17,044 - __main__ - INFO - Prediction: Malignant (100.00%)
+2025-03-03 22:10:17,045 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:10:17] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:13:18,236 - __main__ - INFO - Prediction: Malignant (99.76%)
+2025-03-03 22:13:18,237 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:13:18] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:15:20,705 - __main__ - INFO - Prediction: Malignant (99.76%)
+2025-03-03 22:15:20,706 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:15:20] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:16:10,320 - __main__ - INFO - Prediction: Malignant (63.55%)
+2025-03-03 22:16:10,321 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:16:10] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:16:42,884 - __main__ - INFO - Prediction: Malignant (63.55%)
+2025-03-03 22:16:42,885 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:16:42] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:16:53,277 - __main__ - INFO - Prediction: Benign (74.59%)
+2025-03-03 22:16:53,278 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:16:53] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:17:40,916 - __main__ - INFO - Prediction: Benign (90.85%)
+2025-03-03 22:17:40,917 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:17:40] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:20:39,379 - __main__ - INFO - Prediction: Benign (74.59%)
+2025-03-03 22:20:39,380 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:20:39] "POST /predict HTTP/1.1" 200 -
+2025-03-03 22:20:52,838 - __main__ - INFO - Prediction: Malignant (100.00%)
+2025-03-03 22:20:52,839 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 22:20:52] "POST /predict HTTP/1.1" 200 -
+2025-03-03 23:03:02,470 - __main__ - INFO - Prediction: Malignant (64.26%)
+2025-03-03 23:03:02,475 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 23:03:02] "POST /predict HTTP/1.1" 200 -
