@@ -143,3 +143,5 @@
 2025-03-13 01:15:04,487 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
 2025-03-13 01:15:51,265 - __main__ - INFO - Prediction: Benign (90.85%)
 2025-03-13 01:15:51,267 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 01:15:51] "POST /predict HTTP/1.1" 200 -
+2025-03-13 01:21:27,514 - __main__ - INFO - Prediction: Benign (72.42%)
+2025-03-13 01:21:27,522 - werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 01:21:27] "POST /predict HTTP/1.1" 200 -
